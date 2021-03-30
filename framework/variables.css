@@ -1,0 +1,13 @@
+:root {
+    --primary-color:#e46743;
+    --secondary-color:#b8b8b8;
+    --primary-light-color: #f3af9d;
+    --btn-padding: 8px 12px;
+    --duration: 200ms;
+
+    --box-shadow-color: rgba(228, 103, 67, 0.5);
+    --box-shadow: 0 0 10px var(--box-shadow-color);
+
+    --grid-padding: 15px;
+    --row-margin: -15px;
+}

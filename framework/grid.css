@@ -1,0 +1,49 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-left: var(--row-margin);
+    margin-right: var(--row-margin);
+}
+
+.col {
+    box-sizing: border-box;
+    padding-right: var(--grid-padding);
+    padding-left: var(--grid-padding);
+    flex-shrink: 0;
+}
+
+.col-12 {
+    flex-basis: 100%;
+}
+
+.col-sm-12 {
+
+}
+
+.col-md-6 {
+
+}
+
+.col-lg-3 {
+
+}
+
+.col-6 {
+    flex-basis: 50%;
+}
+
+.col-4 {
+    flex-basis: 33.3333%;
+}
+
+.col-3 {
+    flex-basis: 25%;
+}
+
+.col-2 {
+    flex-basis: 16.6666%;
+}
+
+.col-1 {
+    flex-basis: 8.3333%;
+}

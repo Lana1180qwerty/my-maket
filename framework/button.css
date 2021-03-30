@@ -1,0 +1,18 @@
+.btn {
+    padding: var(--btn-padding);
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border: 2px solid var(--primary-color);
+    outline: 0;
+    transition-property: background-color color;
+    transition-duration: var(--duration);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: white;
+    color: var(--primary-color);
+    box-shadow: var(--box-shadow);
+}
