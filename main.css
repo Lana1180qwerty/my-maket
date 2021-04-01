@@ -27,7 +27,7 @@
 
 .hero {
     background-color: red;
-    background-image: url(rectangle_2_copy_121.png);
+    background-image: url(images/hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -38,6 +38,7 @@
 }
 
 .hero-title {
+    text-align: center;
     font-size: 3em;
     text-transform: uppercase;
     color: white;
