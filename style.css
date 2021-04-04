@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 :root {
-    --primary-color:#000000;
+    --primary-color: #000000;
 }
 
 
@@ -16,10 +16,10 @@ button {
 
 body {
     --text-color: #ffffff;
-    
+
     --size-h1: 48px;
     --size-h2: 20px;
-    
+
 
     font-family:  'Montserrat', sans-serif;
     font-size: 16px;

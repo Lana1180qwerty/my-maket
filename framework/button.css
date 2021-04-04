@@ -6,7 +6,7 @@
     font-weight: bold;
     border: 2px solid var(--primary-color);
     outline: 0;
-    transition-property: background-color color;
+    transition-property: background-color, color;
     transition-duration: var(--duration);
     cursor: pointer;
 }

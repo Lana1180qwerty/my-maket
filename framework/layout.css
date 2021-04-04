@@ -1,3 +1,12 @@
+:root {
+    --xs: 0;
+    --sm: 576px;
+    --md: 768px;
+    --lg: 992px;
+    --xl: 1200px;
+    --xxl: 1400px;
+}
+
 .clearfix {
     overflow: auto;
 }
@@ -8,8 +17,33 @@
     display: table;
 }
 
+html {
+    width: 100%;
+}
+
+body {
+    width: 100%;
+}
+
 .container {
-    width: 940px;
-    margin:auto;
-    
+    width: calc(100% - 2 * var(--grid-padding));
+    margin: auto;
+}
+
+@media (min-width: 576px) {
+    .container {
+        width: 520px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 940px;
+    }
 }
