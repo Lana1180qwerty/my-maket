@@ -1,14 +1,15 @@
 .btn {
     padding: var(--btn-padding);
-    background-color: var(--primary-color);
+    background: rgba(255, 255, 255, 0.1);
     color: white;
-    font-size: 12px;
-    font-weight: bold;
-    border: 2px solid var(--primary-color);
+    font-size: 16px;
+    border: 2px solid white;
+    font-weight: normal;
     outline: 0;
     transition-property: background-color, color;
     transition-duration: var(--duration);
     cursor: pointer;
+    text-transform: uppercase;
 }
 
 .btn:hover {
