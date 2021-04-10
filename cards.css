@@ -29,5 +29,11 @@
     background-position: center;
 }
 
-
+.card-man {
+    width: 190px;
+    height: 190px;
+    display: inline-block;
+    background-size: 100% 100%;
+    font-weight:bold;
+}
 
