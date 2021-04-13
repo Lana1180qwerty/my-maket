@@ -30,6 +30,8 @@
 
 .col-6 {
     flex-basis: 50%;
+    width: 285px;
+    height: 200px;
 }
 
 .col-4 {

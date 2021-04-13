@@ -84,3 +84,16 @@
     transform: translateX(-50%);
 }
 
+.section-white past-work {
+    margin-left: 375px;
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    height: 2px;
+    width: 50px;
+    background-color: #555555;
+    transform: translateX(-50%);
+}
+
