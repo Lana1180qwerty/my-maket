@@ -50,3 +50,11 @@
     font-weight: 400;
 }
 
+.card-body p {
+    margin-top: 7px;
+    margin-bottom: 0;
+}
+
+.card-body span {
+    margin-top: 0;
+}

@@ -25,6 +25,10 @@
     font-weight: 700;
 }
 
+.link-name {
+    color: #555;;
+}
+
 .hero {
     background-color: red;
     background-image: url(images/hero-bg.png);
