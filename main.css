@@ -9,8 +9,7 @@
 }
 
 .list {
-    margin-top: 20px;
-    float: right;
+
 }
 
 .list-item {
@@ -27,33 +26,6 @@
 
 .link-name {
     color: #555;;
-}
-
-.hero {
-    background-color: red;
-    background-image: url(images/hero-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.hero-welcome {
-    margin: auto;
-    padding: 260px 0;
-    text-align: center;
-}
-
-.hero-title {
-    text-align: center;
-    font-size: 3em;
-    text-transform: uppercase;
-    color: white;
-    font-weight: bold;
-}
-
-.hero-subtitle {
-    padding: 0 250px;
-    color: white;
-    font-size: 20px;
 }
 
 .section {
@@ -88,7 +60,7 @@
     transform: translateX(-50%);
 }
 
-.section-white past-work {
+.section-white .past-work {
     margin-left: 375px;
     content: "";
     display: block;

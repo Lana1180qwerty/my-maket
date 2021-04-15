@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 :root {
     --primary-color: #000000;
 }
-
 
 * {
     box-sizing: border-box;
@@ -34,17 +34,13 @@ h2 {
     font-size: var(--size-h2);
 }
 
-
-
-
 .list {
-    margin-left: auto;
-    float: right;
+
 }
 
 .list-item {
     display: inline-block;
-    font-family:  'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: var(--text-color);
     font-weight: 400;
 }
