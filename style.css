@@ -34,19 +34,39 @@ h2 {
     font-size: var(--size-h2);
 }
 
-.list {
-
-}
-
-.list-item {
+.logo {
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
     display: inline-block;
-    font-family: 'Montserrat', sans-serif;
-    color: var(--text-color);
-    font-weight: 400;
-}
-
-.list-item.active {
-    color: var(--text-color);
+    float: left;
 }
 
 
+.pix {
+    width: 250px;
+    height: 220px;
+    display: inline-block;
+    background-size: 100% 100%;
+}
+
+.coffee-work {
+    background-color: rgb(235, 147, 147);
+    background-image: url(images/coffee.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 1300px;
+}
+
+.coffee-title {
+    text-align: center;
+    font-size: 3em;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    height: 200px;
+    width: 100px;
+}

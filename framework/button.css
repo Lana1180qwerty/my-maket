@@ -17,3 +17,26 @@
     color: var(--primary-color);
     box-shadow: var(--box-shadow);
 }
+
+.btn-view {
+    display: none;
+    position: absolute;
+    bottom: 36px;
+    left: 36px;
+    padding: 20px;
+    font-size: 12px;
+    color: black;
+    width: 410px;
+}
+
+.btn-view:hover {
+    content: "VIEW";
+    display: none;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    height: 2px;
+    width: 50px;
+    background-color: #555555;
+    transform: translateX(-50%);
+}
