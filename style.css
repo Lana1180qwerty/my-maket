@@ -46,10 +46,37 @@ h2 {
 
 
 .pix {
+    position: relative;
     width: 250px;
     height: 220px;
     display: inline-block;
     background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.pix-overlay {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #c0301c;
+    opacity: 0.5;
+}
+
+.pix-caption {
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border: 1px solid white;
+    transform: translate(-50%, -50%);
+}
+
+.pix:hover .pix-overlay,
+.pix:hover .pix-caption {
+    display: block;
 }
 
 .coffee-work {
