@@ -84,16 +84,31 @@ h2 {
     background-image: url(images/coffee.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 200px;
-    width: 1300px;
+    height: 370px;
+    width: 1340px;
+    opacity: 0.6;
 }
 
 .coffee-title {
+    margin: auto;
+    padding: 50px 0;
+    padding-bottom: 0;
     text-align: center;
-    font-size: 3em;
+    font-size: 2.5em;
     text-transform: uppercase;
-    color: black;
-    font-weight: bold;
-    height: 200px;
-    width: 100px;
+    color: white;
+    font-weight: 400;
+}
+
+.coffee-subtitle {
+    text-align: center;
+    padding: 0 0 10px;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.btn {
+    text-align: center;
 }
