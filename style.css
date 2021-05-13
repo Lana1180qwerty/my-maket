@@ -70,7 +70,6 @@ h2 {
     position: absolute;
     left: 50%;
     top: 50%;
-    border: 1px solid white;
     transform: translate(-50%, -50%);
 }
 
@@ -79,14 +78,17 @@ h2 {
     display: block;
 }
 
+.span {
+    margin: auto;
+}
 .coffee-work {
     background-color: rgb(235, 147, 147);
     background-image: url(images/coffee.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 370px;
-    width: 1340px;
+    height: 100%;
     opacity: 0.6;
+
 }
 
 .coffee-title {
@@ -109,6 +111,6 @@ h2 {
     font-weight: 400;
 }
 
-.btn {
+.coffee-btn {
     text-align: center;
 }
