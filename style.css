@@ -8,6 +8,11 @@
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
 button {
     transition: all .3s ease-in-out;
     text-transform: uppercase;
@@ -79,14 +84,15 @@ h2 {
     display: block;
 }
 
-.coffee-work {
+.hero-welcome-coffee {
     background-color: rgb(235, 147, 147);
     background-image: url(images/coffee.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 370px;
-    width: 1340px;
     opacity: 0.6;
+    text-align: center;
+    height: 370px;
+    
 }
 
 .coffee-title {
@@ -94,8 +100,7 @@ h2 {
     padding: 50px 0;
     padding-bottom: 0;
     text-align: center;
-    font-size: 2.5em;
-    text-transform: uppercase;
+    font-size: 30px;
     color: white;
     font-weight: 400;
 }
@@ -103,12 +108,133 @@ h2 {
 .coffee-subtitle {
     text-align: center;
     padding: 0 0 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
     color: white;
     font-size: 30px;
-    text-transform: uppercase;
     font-weight: 400;
 }
 
 .btn {
+    margin: auto;
     text-align: center;
+}
+
+.mini-text {
+    font-size: 16px;
+    text-align: center;
+}
+
+.furniture {
+    height: 200px;
+    width: 300px;
+    /* margin-left: 30px; */
+}
+
+.col-12-image {
+    padding-left: 40px;
+}
+
+.descrition {
+    padding-left: 30px;
+}
+
+.blog-posts__image {
+    
+}
+
+.event {
+    width: 76px;
+    height: 76px;
+    border: 2px solid #555555;
+    padding: 8px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 16px;
+}
+
+.event__day {
+    font-family: Montserrat;
+    font-size: 24px;
+    line-height: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #777777;
+}
+
+.event__month {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #777777;
+}
+
+.panel {
+    display: flex;
+}
+
+.panel__description {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    align-self: center;
+}
+
+.panel__title {
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #c0301c;
+    margin: 0;
+    margin-bottom: 4px;
+}
+
+.panel__subtitle {
+    font-family: RobotoSlab;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 400;
+    font-style: italic;
+    color: #777777;
+    margin: 0;
+}
+
+.blog-post {
+    display: flex;
+    max-width: 1130px;
+    margin: 0 auto;
+}
+.blog-post__image {
+    display: flex;
+    flex: 0 0 auto;
+    margin-right: px;
+}
+
+.blog-post__description {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+}
+
+.blog-post__btn {
+    font-family: RobotoSlab;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #c0301c;
+    background: none;
+    border: none;
+    width: auto;
+    display: inline-flex;
 }

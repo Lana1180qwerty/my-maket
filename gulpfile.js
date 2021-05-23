@@ -10,13 +10,30 @@ function html(cb) {
 }
 
 function css(cb) {
-  gulp.src('./style.css')
+  gulp.src('./*.css')
     .pipe(sourcemaps.init())
     .pipe(postcss())
     .pipe(sourcemaps.write())
     .pipe(gulp.dest('./build'));
   cb();
 }
+
+function images(cb) {
+  gulp.src('./images/*.png')
+  .pipe(gulp.dest('./build/images'));
+  cb();
+}
+
+function frameworkCss(cb) {
+  gulp.src('./framework/*.css')
+    .pipe(sourcemaps.init())
+    .pipe(postcss())
+    .pipe(sourcemaps.write())
+    .pipe(gulp.dest('./build/framework'));
+  cb();
+}
+
+
 
 function serve() {
   browserSync.init({
@@ -31,7 +48,7 @@ function reload(cb) {
   cb();
 }
 
-const build = gulp.parallel(html, css)
+const build = gulp.parallel(html, css, images, frameworkCss)
 
 const init = gulp.series(build, serve)
 
@@ -41,6 +58,10 @@ function defaultTask() {
   gulp.watch('./*.html', gulp.series(html, reload));
 
   gulp.watch('./*.css', gulp.series(css, reload));
+
+  gulp.watch('./images/*.png', gulp.series(images, reload));
+
+  gulp.watch('./framework/*.css', gulp.series(frameworkCss, reload));
 }
 
 exports.default = defaultTask;
