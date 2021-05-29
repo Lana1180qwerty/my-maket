@@ -8,10 +8,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="framework/common.css">
-    <link rel="stylesheet" href="./main.css">
     <link rel="stylesheet" href="./hero.css">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="section.css">
     <link rel="stylesheet" href="cards.css">
+    <link rel="stylesheet" href="link.css">
+    <link rel="stylesheet" href="list.css">
 </head>
 <body>
     <header class="hero">
@@ -20,25 +22,25 @@
                 <div class="col-12">
                     <span class="logo">Startup</span>
                     <ul class="list hero-list">
-                        <li class="list-item active">
+                        <li class="list-item" data-index="1">
                             <a href class="link">Home</a>
                         </li>
-                        <li class="list-item">
+                        <li class="list-item" data-index="2">
                             <a href class="link">Services</a>
                         </li>
-                        <li class="list-item">
+                        <li class="list-item" data-index="3">
                             <a href class="link">About</a>
                         </li>
-                        <li class="list-item">
+                        <li class="list-item" data-index="4">
                             <a href class="link">Works</a>
                         </li>
-                        <li class="list-item">
+                        <li class="list-item" data-index="5">
                             <a href class="link">Blog</a>
                         </li>
-                        <li class="list-item">
+                        <li class="list-item" data-index="6">
                             <a href class="link">Clients</a>
                         </li>
-                        <li class="list-item">
+                        <li class="list-item" data-index="7">
                             <a href class="link">Contact</a>
                         </li>
                     </ul>
@@ -65,7 +67,7 @@
                 <div class="col col-4">
                     <div class="card">
                         <div class="card-image">
-                            <div class="card-figure" style="background-image: url(images/ellipse_1_374.png);"></div>
+                            <div class="card-figure" style="background-image: url(images/elipse.png);"></div>
                         </div>
                         <div class="card-body">
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa officia sequi assumenda provident? Sint maiores, consequatur non repudiandae, laboriosam iure odit possimus perspiciatis unde aspernatur inventore, odio excepturi consectetur pariatur!</p>
@@ -176,7 +178,7 @@
                     <h3 class="section-title">Latest work</h3>
                     <ul class="list">
                         <li class="list-item active">
-                            <a href class="link-name">All</a>
+                            <a href class="link-name active">All</a>
                         </li>
                         <li class="list-item">
                             <a href class="link-name">Branding</a>
@@ -192,6 +194,83 @@
                         </li>
                     </ul>
                 </div>
+            </div>
+            <div class="row">
+                <div class="col col-12">
+                    <div class="pix" style="background-image: url(images/hair.png);">
+                        <div class="pix-overlay"></div>
+                        <div class="pix-caption">
+                            <span>Hair Dresser</span>
+                            <span>Branding</span>
+                            <button>View</button>
+                        </div>
+                    </div>
+                    <div class="pix" style="background-image: url(images/bird.png);">
+                        <div class="pix-overlay"></div>
+                        <div class="pix-caption">
+                            <span>Lorem ipsum</span>
+                            <button>View</button>
+                        </div>
+                    </div>
+                    <div class="pix" style="background-image: url(images/gadgets.png);">
+                        <div class="pix-overlay"></div>
+                        <div class="pix-caption">
+                            <span>Lorem ipsum</span>
+                            <button>View</button>
+                        </div>
+                    </div>
+                    <div class="pix" style="background-image: url(images/camera.png);">
+                        <div class="pix-overlay"></div>
+                        <div class="pix-caption">
+                            <span>Lorem ipsum</span>
+                            <button>View</button>
+                        </div>
+                    </div>
+                    <div class="pix" style="background-image: url(images/bicycle.png);">
+                        <div class="pix-overlay"></div>
+                        <div class="pix-caption">
+                            <span>Lorem ipsum</span>
+                            <button>View</button>
+                        </div>
+                    </div>
+                    <div class="pix" style="background-image: url(images/notebook.png);">
+                        <div class="pix-overlay"></div>
+                        <div class="pix-caption">
+                            <span>Lorem ipsum</span>
+                            <button>View</button>
+                        </div>
+                    </div>
+                    <div class="pix" style="background-image: url(images/table.png);">
+                        <div class="pix-overlay"></div>
+                        <div class="pix-caption">
+                            <span>Lorem ipsum</span>
+                            <button>View</button>
+                        </div>
+                    </div>
+                    <div class="pix" style="background-image: url(images/line.png);">
+                        <div class="pix-overlay"></div>
+                        <div class="pix-caption">
+                            <span>Lorem ipsum</span>
+                            <button>View</button>
+                        </div>
+                    </div>
+                    <div class="pix" style="background-image: url(images/events.png);">
+                        <div class="pix-overlay"></div>
+                        <div class="pix-caption">
+                            <span>Lorem ipsum</span>
+                            <button>View</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section >
+        <div class="coffee-work" style="background-image: url(images/coffee.png);">
+            <h1 class="coffee-title">Do you like OUR WORK so far?</h1>
+            <p class="coffee-subtitle">Let's talk about YOUR PROJECT!</p>
+            <div class="coffee-btn">
+                <button class="btn">Get in touch</button>
             </div>
         </div>
     </section>

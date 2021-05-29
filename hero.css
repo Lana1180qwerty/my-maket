@@ -5,7 +5,7 @@
     background-size: cover;
 }
 
-.hero-list {
+.list.hero-list {
     float: right;
     margin-top: 20px;
 }
