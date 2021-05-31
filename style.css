@@ -9,6 +9,8 @@
 }
 
 img {
+    margin: 5px;
+    margin-right: 12px;
     max-width: 100%;
     vertical-align: middle;
 }
@@ -246,7 +248,7 @@ h2 {
   }
   */
 
-  .blog-post::after {
+  .blog-post__description::after, .section-white .grey-stripe {
     background-color: #555;
     bottom: -30px;
     content: "";
@@ -255,7 +257,7 @@ h2 {
     left: 50%;
     position: absolute;
     transform: translateX(-50%);
-    width: 50px;
+    width: 800px;
   } 
 
   .websids {
@@ -300,3 +302,99 @@ h2 {
     color: #555555;
 }
 
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.connection {
+    display: -webkit-box;
+    justify-content: center;
+}
+
+.logo-desc {
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #555555;
+    display: table-row-group;
+    font-family: Montserrat;
+}
+
+.logo-address_2, .logo-address_3 {
+    font-family: RobotoSlab;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #555555;
+    display: table-row-group;
+    margin: 10px;
+}
+
+.form-content {
+    display: flex;
+    text-transform: uppercase;
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+    
+
+.form-field {
+    font-family: RobotoSlab;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #555555;
+}
+
+.input {
+    width: 260px;
+    height: 50px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 75px;
+    text-align: left;
+    border-radius: 2px;
+    border: 1px solid #000000;
+    background-color: rgba(246, 245, 245, 0.5);
+    margin-bottom: 3px;
+    padding-left: 1px;
+    padding-right: 1px;
+    margin-top: 3px;
+    margin-left: 26px;
+    margin-right: 26px;
+}
+
+label {
+    cursor: pointer;
+}
+
+.form-container {
+    display: flex;
+}
+
+.last-btn {
+    background:hsla(0,0%,100%,.1);
+    border:2px solid;
+    color:#555;
+    cursor:pointer;
+    font: size 12px;
+    font-weight: 400;
+    outline: 0;
+    padding:var(--btn-padding);
+    text-transform:uppercase;
+    transition-duration:var(--duration);
+    transition-property:background-color,color;
+    font-family: RobotoSlab;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+}
