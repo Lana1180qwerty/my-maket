@@ -335,7 +335,7 @@ h2 {
     margin: 10px;
 }
 
-.form-content {
+/* .form-content {
     display: flex;
     text-transform: uppercase;
     flex-basis: 50%;
@@ -352,11 +352,12 @@ h2 {
     font-weight: 400;
     text-transform: uppercase;
     color: #555555;
-}
+} */
 
 .input {
-    width: 260px;
-    height: 50px;
+    flex: 1 1 auto;
+    width: 100%;
+    height: 44px;
     text-transform: uppercase;
     color: #fff;
     font-size: 1em;
@@ -366,12 +367,10 @@ h2 {
     border-radius: 2px;
     border: 1px solid #000000;
     background-color: rgba(246, 245, 245, 0.5);
-    margin-bottom: 3px;
     padding-left: 1px;
     padding-right: 1px;
-    margin-top: 3px;
-    margin-left: 26px;
-    margin-right: 26px;
+    margin-right: 8px;
+    margin-bottom: 12px;
 }
 
 label {
@@ -387,7 +386,7 @@ label {
     border:2px solid;
     color:#555;
     cursor:pointer;
-    font: size 12px;
+    font-size: 12px;
     font-weight: 400;
     outline: 0;
     padding:var(--btn-padding);
@@ -397,4 +396,37 @@ label {
     font-family: RobotoSlab;
     line-height: 20px;
     letter-spacing: 0.05em;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    max-width: 730px;
+
+}
+
+.form-group__row {
+    display: flex;
+}
+
+.form-group__container {
+    display: flex;
+    max-width: 100%;
+}
+
+.form-group__container--1-2 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    width: 350px;
+}
+
+.textarea {
+    width: 730px;
+    height: 104px;
 }
