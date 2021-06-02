@@ -239,28 +239,17 @@ h2 {
     width: auto;
     display: inline-flex;
 }
+
 .grey-stripe {
     background-color: #777;
-    width: 1100px;
+    width: 100%;
     box-sizing: border-box;
     height: 2px;
-    margin-top: 24px;
-    margin-bottom: 24px;
-    margin-left: 96px;
+    text-align: center;
+    display: flex;
+    max-width: 1120px;
+    margin: 24px auto;
   }
-  
-
-  .section-white .blog-post .grey-stripe::after  {
-    background-color: #555;
-    bottom: -30px;
-    content: "";
-    display: block;
-    height: 2px;
-    left: 50%;
-    position: absolute;
-    transform: translateX(-50%);
-    width: 800px;
-  } 
 
   .websids {
     width: 141px;
@@ -485,7 +474,7 @@ label {
     margin: 120px 6px 0 0;
 }
 
-.last-phrase {
+.white-phrase {
     text-align: center;
     font-family: RobotoSlab;
     font-size: 12px;
@@ -494,28 +483,17 @@ label {
     text-transform: uppercase;
     color: #ffffff;
     display: block;
-    width: 10%;
+    width: 100%;
     position: absolute;
 }
 
-.grey__stripe {
-    background-color: #ffffff;
-    width: 50px;
+  .white-stripe {
+    background-color: #fff;
     box-sizing: border-box;
     height: 2px;
-    margin-top: 24px;
-    margin-bottom: 24px;
-    margin-left: 620px;
+    text-align: center;
+    display: flex;
+    max-width: 50px;
+    margin: 24px auto;
   }
   
-
-  .footer .footer_img .grey__stripe::after  {
-    background-color: #ffffff;
-    bottom: -30px;
-    content: "";
-    display: block;
-    height: 2px;
-    position: absolute;
-    transform: translateX(-50%);
-    width: 800px;
-  } 
