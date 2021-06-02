@@ -239,16 +239,18 @@ h2 {
     width: auto;
     display: inline-flex;
 }
-/*.grey-stripe {
-    background-color: grey;
-    padding: 30px 0;
-    width: 75%;
+.grey-stripe {
+    background-color: #777;
+    width: 1100px;
     box-sizing: border-box;
     height: 2px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 96px;
   }
-  */
+  
 
-  .blog-post__description::after, .section-white .grey-stripe {
+  .section-white .blog-post .grey-stripe::after  {
     background-color: #555;
     bottom: -30px;
     content: "";
@@ -360,7 +362,7 @@ h2 {
     height: 44px;
     text-transform: uppercase;
     color: #fff;
-    font-size: 1em;
+    font-size: 12px;
     font-weight: 400;
     line-height: 75px;
     text-align: left;
@@ -396,6 +398,13 @@ label {
     font-family: RobotoSlab;
     line-height: 20px;
     letter-spacing: 0.05em;
+    margin-top: 10px;
+    margin-left: 0;
+}
+
+.new-features-small-title {
+    margin-top: 20px;
+    font-size: 12px;
 }
 
 .contacts {
@@ -429,4 +438,84 @@ label {
 .textarea {
     width: 730px;
     height: 104px;
+    text-transform: uppercase;
+    font-size: 12px;
 }
+
+.input__1 {
+    margin-left: 2px;
+    margin-right: 8px;
+}
+
+.input__2 {
+    margin-left: 8px;
+    margin-right: 0;
+}
+
+.input__3 {
+    margin-left: 2px;
+    margin-right: 8px;
+}
+
+.input__4 {
+    margin-left: 8px;
+    margin-right: 0;
+}
+
+.footer_img {
+    background-color: #c0301c;
+    width: 100%;
+    height: 307px;
+}
+
+ .twitter-logo {
+    text-align: center;
+    
+} 
+
+.twitter_logo_silhouette {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-position: center;
+    display: inline-block;
+    margin: 120px 6px 0 0;
+}
+
+.last-phrase {
+    text-align: center;
+    font-family: RobotoSlab;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    display: block;
+    width: 10%;
+    position: absolute;
+}
+
+.grey__stripe {
+    background-color: #ffffff;
+    width: 50px;
+    box-sizing: border-box;
+    height: 2px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 620px;
+  }
+  
+
+  .footer .footer_img .grey__stripe::after  {
+    background-color: #ffffff;
+    bottom: -30px;
+    content: "";
+    display: block;
+    height: 2px;
+    position: absolute;
+    transform: translateX(-50%);
+    width: 800px;
+  } 
